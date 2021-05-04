@@ -1545,6 +1545,11 @@ GameObject:
   m_Component:
   - component: {fileID: 5764203430995308494}
   - component: {fileID: 8717543292690442956}
+  - component: {fileID: 66535921898654866}
+  - component: {fileID: 289934219586559098}
+  - component: {fileID: 1904856216066375050}
+  - component: {fileID: 2180657936537811588}
+  - component: {fileID: 1767604499184791051}
   m_Layer: 0
   m_Name: minispider
   m_TagString: Untagged
@@ -1561,7 +1566,7 @@ Transform:
   m_GameObject: {fileID: 5598755696596638588}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -39.8, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children:
   - {fileID: 6530668670440906967}
   - {fileID: 287614049395876110}
@@ -1625,6 +1630,86 @@ MonoBehaviour:
     showGizmo: 1
   - color: {r: 1, g: 0, b: 0, a: 1}
     showGizmo: 1
+--- !u!114 &66535921898654866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5598755696596638588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe3a9d019a2092c41bd55d4649c47466, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: 2
+  itemName: spideranim
+  isText: 0
+  lang: 
+  stepNum: 0
+--- !u!114 &289934219586559098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5598755696596638588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2544e73be70456a42a401fd2dbe3ac7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actionTime: 1
+  finishPoint: {x: 0, y: 0, z: 0}
+--- !u!114 &1904856216066375050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5598755696596638588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4287fa945589aa64bb0f74bbcbb08017, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actionTime: 1
+  rotateStart: {x: 0, y: 0, z: 0}
+  rotateFinish: {x: 0, y: 0, z: 0}
+--- !u!114 &2180657936537811588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5598755696596638588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82087acb29b293548a572da764a2de63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actionTime: 1
+  startScale: {x: 0.1, y: 0.1, z: 0.1}
+  finishScale: {x: 1, y: 1, z: 1}
+--- !u!95 &1767604499184791051
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5598755696596638588}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 986d7cdf14f4f6745925b120f6361c7f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &6426033256297886592
 GameObject:
   m_ObjectHideFlags: 0
